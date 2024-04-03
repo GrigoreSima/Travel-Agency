@@ -27,7 +27,7 @@ Seven Dublin 3 2500
 class RepositoryAbstract
 {
 public:
-    //float _probability; // TODO: probab private
+    //float _probability;
     virtual void addOffer(const Offer&) = 0;
     virtual void addOffer(const string&, const string&, const int&, const int&) = 0;
     virtual void removeOffer(const int&) = 0;
